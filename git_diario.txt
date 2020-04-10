@@ -1,0 +1,7 @@
+
+ git add .
+ 
+jcar@jcar-VirtualBox:~/mis_proy/node_est/prendas$ git config --global user.email "juantribaldos@gmail.com"
+jcar@jcar-VirtualBox:~/mis_proy/node_est/prendas$ git config --global user.name "juantribaldos"
+
+git commit -m Primera_pregunta	 10-04-2020
