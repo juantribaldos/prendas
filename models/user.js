@@ -3,7 +3,6 @@ var Schema = mongoose.Schema;
 mongoose.set('useUnifiedTopology', true);// siempre antes que el conect
 mongoose.connect("mongodb://localhost/fotos", { useNewUrlParser: true });
 
-
 var userSchemaJSON = {
 	name:String,
 	username:String,

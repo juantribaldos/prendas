@@ -5,3 +5,12 @@ jcar@jcar-VirtualBox:~/mis_proy/node_est/prendas$ git config --global user.email
 jcar@jcar-VirtualBox:~/mis_proy/node_est/prendas$ git config --global user.name "juantribaldos"
 
 git commit -m Primera_pregunta	 10-04-2020
+git push -u origin master
+
+
+***************************************************HEROKU
+instalamos el cliente heroku_cli
+
+	Desplegamos a heroku la rama master
+		git push heroku master
+	heroku git:remote -a prendas

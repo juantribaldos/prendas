@@ -9,7 +9,7 @@ var partials = require('express-partials');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-var User = require('./models/user');
+var User = require('./models/user').User;
 var app = express();
 
 // view engine setup

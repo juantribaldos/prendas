@@ -12,8 +12,6 @@ router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);
 
 
-
-
 router.get('/login', function(req, res, next) {
 	User.find(function(err, doc){
 	console.log(doc);
